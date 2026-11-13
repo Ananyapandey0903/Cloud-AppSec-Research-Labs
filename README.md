@@ -6,13 +6,13 @@ This repository contains my daily lab walkthroughs, root cause analyses, network
 
 ## 🗂️ Directory Index
 
-### 0. Master Roadmap
-* [View My Learning Path & Architecture](./Roadmap/Learning-Path.md)*
+### 1. Master Roadmap
+* [View My Learning Path & Architecture](./Roadmap/Learning-Path.md).*
 
-### 1. Core Security & Networking Fundamentals
+### 2. Core Security & Networking Fundamentals
 *Notes on TCP/IP, OSI Model, Linux architecture, and Cryptography.*
 
-### 2. PortSwigger Web Security Academy (AppSec)
+### 3. PortSwigger Web Security Academy (AppSec)
 *Manual interception, exploitation, and mitigation of OWASP Top 10 vulnerabilities using Burp Suite.*
 * **SQL Injection:**
   * *(Placeholder: Lab 1 Walkthrough)*
@@ -21,8 +21,8 @@ This repository contains my daily lab walkthroughs, root cause analyses, network
 * **Cross-Site Scripting (XSS):**
   * *(Placeholder: Lab 1 Walkthrough)*
 
-### 3. Cloud Security & DevSecOps
+### 4. Cloud Security & DevSecOps
 *AWS IAM configurations, infrastructure as code (IaC) security, and CI/CD pipeline automation.*
 
-### 4. Custom Security Automation Scripts
+### 5. Custom Security Automation Scripts
 *Python scripts for API fuzzing and automated vulnerability detection.*
