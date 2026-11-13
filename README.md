@@ -6,6 +6,9 @@ This repository contains my daily lab walkthroughs, root cause analyses, network
 
 ## 🗂️ Directory Index
 
+### 0. Master Roadmap
+* [View My Learning Path & Architecture](./Roadmap/Learning-Path.md)*
+
 ### 1. Core Security & Networking Fundamentals
 *Notes on TCP/IP, OSI Model, Linux architecture, and Cryptography.*
 
