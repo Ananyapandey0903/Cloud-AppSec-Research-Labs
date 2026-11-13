@@ -14,10 +14,6 @@
 3. [Insert specific action, e.g., Injected a UNION SELECT payload into the category parameter].
 
 **Malicious HTTP Request Payload:**
-```http
-[Paste the raw HTTP request from Burp Suite here. Example below:]
-GET /filter?category=Gifts'+UNION+SELECT+username,+password+FROM+users-- HTTP/1.1
-Host: vulnerable-website.com
 
 ## 4. Root Cause Analysis
 [Explain the underlying flaw in the backend logic. E.g., The application takes the user's input from the `category` parameter and directly concatenates it into the backend SQL string without sanitization. This allows the attacker's payload to break out of the data context and alter the structure of the database query.]
@@ -32,3 +28,5 @@ Host: vulnerable-website.com
 ```java
 PreparedStatement pstmt = connection.prepareStatement("SELECT * FROM products WHERE category = ?");
 pstmt.setString(1, categoryInput);
+
+
